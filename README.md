@@ -13,10 +13,29 @@ npm install jsbug --save
 ```bash
 import {JsBug} from 'JBUG'
 
-JsBug({
-    
+JsBug(JSON.stringify( {
+      token:'your token'
+    flag:'Bug trace',
+    date_create:'DDMMYY',
+    user:'User'
+   }));
 
-});
+   JsBug({
+    hostname: 'your hostname',
+    port: your port,
+    path: 'your path ressource',
+    method: 'POST',
+    headers: {
+        'Content-Type': 'application/json'
+      }
+  },
+
+    JSON.stringify( {
+    token:'your token'
+    flag:'Bug trace',
+    date_create:'DDMMYY',
+    user:'User'
+   }));
 ```
 
 ## License

@@ -1,0 +1,22 @@
+{
+  "name": "jsbugs",
+  "version": "1.0.0",
+  "description": "Une bibliothèque javascript pour la gestion des bugs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lukangakevin/jsbugs.git"
+  },
+  "keywords": [
+    "jsbugs"
+  ],
+  "author": "Kevin Lukanga",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lukangakevin/jsbugs/issues"
+  },
+  "homepage": "https://github.com/lukangakevin/jsbugs#readme"
+}
